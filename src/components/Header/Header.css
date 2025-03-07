@@ -1,0 +1,28 @@
+.header-navigation {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: var(--background-color);
+}
+
+.logo span {
+  color: var(--primary-color);
+}
+
+.header-navigation h1 {
+  font-size: 5rem;
+}
+.header-contacts {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+}
+.header {
+  display: block;
+}
+.header-contact {
+  display: flex;
+  gap: 1rem;
+}

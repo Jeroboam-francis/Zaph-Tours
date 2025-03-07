@@ -1,8 +1,10 @@
 import React from "react";
+import Header from "./components/Header/Header";
 function App() {
   return (
     <React.Fragment>
-      <h1> zaph tours</h1>
+    
+      <Header />
     </React.Fragment>
   );
 }
