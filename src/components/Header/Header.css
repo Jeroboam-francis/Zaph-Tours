@@ -1,17 +1,22 @@
-.header-navigation {
+.header-navigation ol {
   display: flex;
   justify-content: flex-end;
   gap: 10rem;
   padding: 1rem 50rem;
   background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 .header-navigation h1 {
   font-size: 3rem;
 }
+.active-link {
+  color: var(--primary-color);
+}
+
 .header-contacts {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 1rem;
 }
 .header {
