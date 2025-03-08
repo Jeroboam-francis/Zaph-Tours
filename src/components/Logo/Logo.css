@@ -1,0 +1,12 @@
+.logo {
+
+  align-self: center;
+}
+.logo span {
+  color: var(--primary-color);
+}
+.logo img {
+  width: 10rem;
+  border-radius: 100%;
+  /* align-self: center; */
+}

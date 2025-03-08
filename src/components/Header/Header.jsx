@@ -17,7 +17,7 @@ export default Header;
 function HeaderNavigation() {
   return (
     <div className="header-navigation">
-      <Logo />
+      
       <HeaderNavItem text="Home" />
       <HeaderNavItem text="Destinations" />
       <HeaderNavItem text="Trip Types" />
@@ -29,6 +29,7 @@ function HeaderNavigation() {
 function HeaderContacts() {
   return (
     <div className="header-contacts">
+      <Logo />
       <HeaderContact text=" tel:+254746261731" icons={<FaPhone />} />
       <HeaderContact text=" zaphtours@gmail.com" icons={<IoMailUnread />} />
       <HeaderContact text=" Nairobi, Kenya" icons={<FaLocationDot />} />

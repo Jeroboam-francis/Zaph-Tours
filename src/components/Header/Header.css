@@ -1,22 +1,17 @@
 .header-navigation {
   display: flex;
-  justify-content: space-around;
-  gap: 1rem;
-  padding: 1rem;
+  justify-content: flex-end;
+  gap: 10rem;
+  padding: 1rem 50rem;
   background-color: var(--background-color);
 }
 
-.logo span {
-  color: var(--primary-color);
-}
-
 .header-navigation h1 {
-  font-size: 5rem;
+  font-size: 3rem;
 }
 .header-contacts {
   display: flex;
   justify-content: space-between;
-  gap: 1rem;
   padding: 1rem;
 }
 .header {
