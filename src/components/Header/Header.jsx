@@ -32,10 +32,10 @@ function HeaderContacts() {
   return (
     <div className="header-contacts">
       <Logo />
-      <HeaderContact text=" tel:+254746261731" icons={<FaPhone />} />
+      <HeaderContact text=" Tel:+254746261731" icons={<FaPhone />} />
       <HeaderContact text=" zaphtours@gmail.com" icons={<IoMailUnread />} />
       <HeaderContact text=" Nairobi, Kenya" icons={<FaLocationDot />} />
-      <HeaderContact text=" 24hrs 7 ays" icons={<FaClock />} />
+      <HeaderContact text=" 24hrs" icons={<FaClock />} />
     </div>
   );
 }

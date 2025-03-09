@@ -5,7 +5,7 @@
   --light-color: #f8f9fa;
   --dark-color: #343a40;
   --text-color: #000000;
-  --background-color:#78797b;
+  --background-color: #78797b;
 }
 
 * {
@@ -29,4 +29,5 @@ a {
 ul,
 ol {
   list-style: none;
+  text-decoration: none;
 }

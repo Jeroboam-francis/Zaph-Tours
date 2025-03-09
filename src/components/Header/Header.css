@@ -19,9 +19,7 @@
   justify-content: space-around;
   padding: 1rem;
 }
-.header {
-  display: block;
-}
+
 .header-contact {
   display: flex;
   gap: 1rem;
