@@ -1,5 +1,4 @@
 .logo {
-
   align-self: center;
 }
 .logo span {
@@ -8,5 +7,5 @@
 .logo img {
   width: 10rem;
   border-radius: 100%;
-  /* align-self: center; */
+  border: 0.5rem solid var(--primary-color);
 }
