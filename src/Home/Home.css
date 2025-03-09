@@ -8,24 +8,18 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 1rem;
 }
 
-.hero-header,
-.hero-paragraph,
-.hero-button {
-  position: relative;
-  z-index: 2;
-}
 .hero-header {
-  font-size: 5rem;
-  color: var(--secondary-color);
+  font-size: 3.5rem;
+  color: var(--primary-color);
 }
 .hero-paragraph {
   font-size: 2rem;
   color: var(--light-color);
   margin: 1rem 0 2rem;
 }
-
 .hero-button button {
   padding: 1rem 2rem;
   margin: 1rem;
@@ -41,50 +35,99 @@
   background-color: var(--secondary-color);
 }
 
-/* about section */
-
 .about-us {
-  height: 90vh;
+  padding: 3rem;
 }
-
 .section-title {
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 3rem;
   color: var(--secondary-color);
-  position: relative;
-  font-size: 5rem;
+  font-size: 3.5rem;
 }
-
 .about-content {
   display: flex;
   align-items: center;
   gap: 10rem;
 }
-
 .about-logo {
   margin-left: 3rem;
-  padding: 20rem;
+  padding: 10rem;
   background-color: rgb(223, 224, 225);
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
-
 .about-text {
   flex: 1;
 }
-
 .about-text h3 {
-  font-size: 3rem;
-  color: var(--secondary-color);
+  font-size: 2.5rem;
+  color: var(--primary-color);
   margin-bottom: 20px;
 }
-
 .about-text p {
-  margin-bottom: 15px;
-  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
   color: var(--dark-color);
   line-height: 1.5;
 }
 .about-text a {
   font-size: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .hero-header {
+    font-size: 3rem;
+  }
+  .hero-paragraph {
+    font-size: 1.8rem;
+  }
+  .hero-button button {
+    font-size: 1.4rem;
+    padding: 0.8rem 1.8rem;
+  }
+  .about-content {
+    flex-direction: column;
+    gap: 5rem;
+    text-align: center;
+  }
+  .about-logo {
+    margin-left: 0;
+    padding: 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    padding: 3rem 1rem;
+  }
+  .hero-header {
+    font-size: 2.5rem;
+  }
+  .hero-paragraph {
+    font-size: 1.5rem;
+  }
+  .hero-button button {
+    font-size: 1.2rem;
+    padding: 0.7rem 1.5rem;
+  }
+  .about-content {
+    flex-direction: column;
+    gap: 3rem;
+    text-align: center;
+  }
+  .about-logo {
+    padding: 4rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .about-text h3 {
+    font-size: 2rem;
+  }
+  .about-text p {
+    font-size: 1.3rem;
+  }
+  .about-text a {
+    font-size: 1.5rem;
+  }
 }

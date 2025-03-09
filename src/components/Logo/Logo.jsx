@@ -7,6 +7,7 @@ function Logo() {
       <h1>
         Zaph<span>Tours</span>
       </h1>
+      <p className="tagline">Best Safaris and Adventures</p>
     </div>
   );
 }

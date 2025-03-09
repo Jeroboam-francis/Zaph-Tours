@@ -1,5 +1,7 @@
 import "./Home.css";
 import Logo from "../components/Logo/Logo";
+import FeaturedDestinations from "../components/FeaturedDestinations/FeaturedDestinations";
+import FeaturedDestinationsData from "../data/FeaturedDestinationData";
 
 function Home() {
   return (
@@ -7,6 +9,7 @@ function Home() {
       <h1>
         <Hero />
         <AboutUs />
+        <FeaturedDestinationsCard />
       </h1>
     </div>
   );
@@ -66,5 +69,26 @@ function AboutUs() {
         </div>
       </div>
     </div>
+  );
+}
+function FeaturedDestinationsCard() {
+  return (
+    <section className="destinations" id="featured">
+      <div className="container">
+        <h2 className="section-title">Featured Destinations</h2>
+        <div className="dest-grid">
+          {FeaturedDestinationsData.map((data) => (
+            <FeaturedDestinations
+              key={data.id}
+              image={data.image}
+              title={data.title}
+              description={data.description}
+              price={data.price}
+              link={data.link}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
   );
 }

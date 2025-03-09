@@ -1,15 +1,14 @@
 import "./Header.css";
-import { FaClock, FaPhone } from "react-icons/fa";
-import { FaLocationDot } from "react-icons/fa6";
-import { IoMailUnread } from "react-icons/io5";
-import Logo from "../Logo/Logo";
+// import { FaClock, FaPhone } from "react-icons/fa";
+// import { FaLocationDot } from "react-icons/fa6";
+// import { IoMailUnread } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
     <header className="header">
-      <HeaderContacts />
       <HeaderNavigation />
+      {/* <HeaderContacts /> */}
     </header>
   );
 }
@@ -19,6 +18,10 @@ function HeaderNavigation() {
   return (
     <div className="header-navigation">
       <ol>
+        <h1>
+          Zaph<span> Tours</span>
+          <p className="tagline">Best Safaris and Adventures</p>
+        </h1>
         <NavigationLink to="/" Label="Home" />
         <NavigationLink to="/destinations" Label="Destinations" />
         <NavigationLink to="/triptypes" Label="Trip Types" />
@@ -28,17 +31,16 @@ function HeaderNavigation() {
   );
 }
 
-function HeaderContacts() {
-  return (
-    <div className="header-contacts">
-      <Logo />
-      <HeaderContact text=" Tel:+254746261731" icons={<FaPhone />} />
-      <HeaderContact text=" zaphtours@gmail.com" icons={<IoMailUnread />} />
-      <HeaderContact text=" Nairobi, Kenya" icons={<FaLocationDot />} />
-      <HeaderContact text=" 24hrs" icons={<FaClock />} />
-    </div>
-  );
-}
+// function HeaderContacts() {
+//   return (
+//     <div className="header-contacts">
+//       <HeaderContact text=" Tel:+254746261731" icons={<FaPhone />} />
+//       <HeaderContact text=" zaphtours@gmail.com" icons={<IoMailUnread />} />
+//       <HeaderContact text=" Nairobi, Kenya" icons={<FaLocationDot />} />
+//       <HeaderContact text=" 24hrs" icons={<FaClock />} />
+//     </div>
+//   );
+// }
 
 function HeaderContact({ icons, text }) {
   return (
@@ -48,14 +50,6 @@ function HeaderContact({ icons, text }) {
     </div>
   );
 }
-
-// function HeaderNavItem({ text }) {
-//   return (
-//     <div className="header-nav-item">
-//       <p>{text}</p>
-//     </div>
-//   );
-// }
 
 function NavigationLink({ to, Label }) {
   return (
