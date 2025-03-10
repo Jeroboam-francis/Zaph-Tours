@@ -10,6 +10,7 @@ function Home() {
         <Hero />
         <AboutUs />
         <FeaturedDestinationsCard />
+        <Testimonials />
       </h1>
     </div>
   );
@@ -87,6 +88,50 @@ function FeaturedDestinationsCard() {
               link={data.link}
             />
           ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function Testimonials() {
+  return (
+    <section className="testimonials">
+      <div className="container">
+        <h2 className="section-title">What Our Clients Say</h2>
+        <div className="testimonial-grid">
+          <div className="testimonial-card">
+            <div className="testimonial-text">
+              Our guide was incredibly knowledgeable and spotted wildlife we
+              would have never seen on our own. The best safari experience we
+              could have hoped for!
+            </div>
+            <div className="testimonial-author">
+              Stella Thompson, Kirinyang'a, Kenya
+            </div>
+          </div>
+
+          <div className="testimonial-card">
+            <div className="testimonial-text">
+              Climbing Mt. Kenya with Zaph Tours was life-changing. The team
+              ensured our safety while making the experience absolutely
+              unforgettable.
+            </div>
+            <div className="testimonial-author">
+              Jeroboam Francis, Kisii Kenya
+            </div>
+          </div>
+
+          <div className="testimonial-card">
+            <div className="testimonial-text">
+              From planning to execution, everything was flawless. They even
+              accommodated last-minute changes to our itinerary. Truly a premium
+              service!
+            </div>
+            <div className="testimonial-author">
+              Jackline Nderi, Murang'a Kenya
+            </div>
+          </div>
         </div>
       </div>
     </section>

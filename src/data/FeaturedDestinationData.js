@@ -5,6 +5,7 @@ import LakeNakuru from "../assets/Lake-Nakuru.jpg";
 import TsavoNationalPark from "../assets/Tsavo-National-Park.jpg";
 import CoastalKenya from "../assets/Coastal-Kenya.jpg";
 
+
 const FeaturedDestinationsData = [
   {
 

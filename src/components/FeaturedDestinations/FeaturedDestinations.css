@@ -1,12 +1,12 @@
 .destinations {
-  padding: 80px 0;
+  padding: 3rem 15rem;
   background-color: var(--light-color);
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 1.5rem;
 }
 
 .section-title {
@@ -19,12 +19,12 @@
 .dest-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
+  gap: 2rem;
 }
 
 .dest-card {
   background: white;
-  border-radius: 10px;
+  border-radius: 0.5rem;
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
@@ -71,7 +71,7 @@
   color: var(--primary-color);
   font-weight: bold;
   font-size: 2rem;
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
 }
 
 .btn {

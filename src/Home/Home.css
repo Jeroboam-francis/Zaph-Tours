@@ -1,3 +1,4 @@
+/* hero section */
 .hero {
   height: 90vh;
   background-image: url(../assets/hero.jpg);
@@ -34,9 +35,9 @@
 .hero-button button:hover {
   background-color: var(--secondary-color);
 }
-
+/* About us */
 .about-us {
-  padding: 3rem;
+  padding: 3rem 15rem;
 }
 .section-title {
   text-align: center;
@@ -130,4 +131,37 @@
   .about-text a {
     font-size: 1.5rem;
   }
+
+  /* testimonials */
+}
+.testimonials {
+  padding: 15rem 15rem;
+  background-color: var(--light-color);
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.testimonial-card {
+  background-color: white;
+  padding: 2.5rem;
+  border-radius: 0.7rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.testimonial-text {
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  position: relative;
+  font-size: small;
+}
+
+.testimonial-author {
+  font-weight: bold;
+  color: var(--secondary-color);
+  font-size: small;
 }
