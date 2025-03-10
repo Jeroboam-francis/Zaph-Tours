@@ -1,18 +1,4 @@
-/* .header-contacts {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 2rem;
-  padding: 1rem 10rem;
-}
 
-.header-contact {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  font-size: 1rem;
-  color: var(--text-color); 
-}*/
 
 .header-navigation {
   position: fixed;

@@ -2,6 +2,8 @@ import "./Home.css";
 import Logo from "../components/Logo/Logo";
 import FeaturedDestinations from "../components/FeaturedDestinations/FeaturedDestinations";
 import FeaturedDestinationsData from "../data/FeaturedDestinationData";
+import NewsLetter from "../components/NewsLetter/NewsLetter";
+import Footer from "../components/Footer/Footer";
 
 function Home() {
   return (
@@ -11,6 +13,8 @@ function Home() {
         <AboutUs />
         <FeaturedDestinationsCard />
         <Testimonials />
+        <NewsLetterCard />
+        <FooterCard />
       </h1>
     </div>
   );
@@ -135,5 +139,21 @@ function Testimonials() {
         </div>
       </div>
     </section>
+  );
+}
+
+function NewsLetterCard() {
+  return (
+    <div>
+      <NewsLetter />
+    </div>
+  );
+}
+
+function FooterCard() {
+  return (
+    <div>
+      <Footer />
+    </div>
   );
 }
