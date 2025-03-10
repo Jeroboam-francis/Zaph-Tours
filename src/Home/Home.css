@@ -165,3 +165,29 @@
   color: var(--secondary-color);
   font-size: small;
 }
+
+@media (max-width: 992px) {
+  .dest-grid,
+  .testimonial-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-content {
+    flex-direction: column;
+  }
+}
+@media (max-width: 600px) {
+  .hero h2 {
+    font-size: 2.5rem;
+  }
+
+  .dest-grid,
+  .testimonial-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+  }
+
+}

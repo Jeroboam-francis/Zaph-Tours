@@ -1,6 +1,8 @@
+import PropTypes from "prop-types"; 
 import { FaClock, FaPhone } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoMailUnread } from "react-icons/io5";
+
 function Contacts() {
   return (
     <div>
@@ -22,3 +24,8 @@ function FooterContact({ icons, text }) {
     </div>
   );
 }
+
+FooterContact.propTypes = {
+  icons: PropTypes.element.isRequired,
+  text: PropTypes.string.isRequired,
+};

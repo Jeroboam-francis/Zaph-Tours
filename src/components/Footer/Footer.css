@@ -1,63 +1,80 @@
 footer {
-    background-color: var(--dark-color);
-    color: white;
-    padding: 2.5rem 0 1.2rem;
-    font-size: 1.5rem;
-  }
+  background-color: var(--dark-color);
+  color: white;
+  padding: 1.5rem 2rem;
+  font-size: 1.5rem;
+  border: 1rem solid red;
+  padding-top: 4rem;
+  justify-content: center;
+}
 
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-bottom: 1rem;
+}
+.footer-column h3 {
+  margin-bottom: 3rem;
+  color: var(--primary-color);
+}
+
+.footer-column ul li {
+  margin-bottom: 1rem;
+}
+
+.footer-column ul li a {
+  color: #ddd;
+  transition: color 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.footer-column ul li a:hover {
+  color: var(--primary-color);
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-links a {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.social-links a:hover {
+  background-color: var(--primary-color);
+  transform: translateY(-3px);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+@media (max-width: 992px) {
   .footer-content {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
-    margin-bottom: 3rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
   }
 
-  .footer-column h3 {
-    margin-bottom: 3rem;
-    color: var(--primary-color);
+  .nav-links {
+    margin-top: 15px;
   }
 
-  .footer-column ul {
-    list-style: none;
+  .nav-links li {
+    margin: 0 15px;
   }
-
-  .footer-column ul li {
-    margin-bottom: 1rem;
-  }
-
-  .footer-column ul li a {
-    color: #ddd;
-    transition: color 0.3s ease;
-  }
-
-  .footer-column ul li a:hover {
-    color: var(--primary-color);
-  }
-
-  .social-links {
-    display: flex;
-    gap: 1rem;
-  }
-
-  .social-links a {
-    color: white;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
-  }
-
-  .social-links a:hover {
-    background-color: var(--primary-color);
-    transform: translateY(-3px);
-  }
-
-  .footer-bottom {
-    text-align: center;
-    padding-top: 20px;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-  }
+}
