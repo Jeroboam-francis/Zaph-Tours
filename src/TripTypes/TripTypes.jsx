@@ -18,7 +18,6 @@ function TripTypesDataCard() {
   return (
     <section className="packages" id="featured">
       <div className="container">
-        <h2 className="package-title">Featured Trip Packages</h2>
         <div className="package-list">
           {TripTypesData.map((data) => (
             <TripTypesCard
@@ -56,7 +55,6 @@ function TripTypesCard({
           <div className="package-card" id={id}>
             <h2 className="package-title">{title}</h2>
             <div className="package-category">{category}</div>
-
             <div className="image-gallery">
               <div className="main-image">
                 {images && images.length > 0 ? (
@@ -104,16 +102,6 @@ function TripTypesCard({
 function HeroSection() {
   return (
     <div>
-      <section className="hero-section">
-        <div className="container">
-          <h1>Discover Our Travel Packages</h1>
-          <p>
-            Carefully crafted travel experiences designed to create memories
-            that last a lifetime
-          </p>
-        </div>
-      </section>
-
       <section className="packages-intro">
         <div className="container">
           <h2>Explore Our Diverse Range of Travel Experiences</h2>

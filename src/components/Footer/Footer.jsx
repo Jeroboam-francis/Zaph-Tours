@@ -2,6 +2,7 @@ import "./Footer.css";
 import { FaYoutube, FaTwitter, FaWhatsapp, FaFacebook } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import Contacts from "../Contacts/Contacts";
+import Logo from "../Logo/Logo";
 
 function Footer() {
   return (
@@ -9,7 +10,10 @@ function Footer() {
       <div className="container">
         <div className="footer-content">
           <div className="footer-column">
-            <h3>Zaph Tours</h3>
+            <h3>
+              <Logo />
+            </h3>
+
             <p>
               Best safaris and adventures in Kenya and beyond, creating
               unforgettable experiences since 2005.

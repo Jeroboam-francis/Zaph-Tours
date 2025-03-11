@@ -5,32 +5,6 @@
   padding: 0 1rem;
 }
 
-/* Hero Section */
-.hero-section {
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../assets/tripsbackground.jpg");
-  background-size: cover;
-  background-position: center;
-  color: var(--primary-color);
-  text-align: center;
-  padding: 7.5rem 0;
-}
-
-.hero-section h1 {
-  font-size: 3rem;
-  margin-bottom: 1.5rem;
-  color: var(--primary-color);
-}
-
-.hero-section p {
-  font-size: 1.5rem;
-  max-width: 700px;
-  margin: 0 auto;
-  color: var(--accent-color);
-}
-
-/* Packages Intro Section */
 .packages-intro {
   text-align: center;
   padding: 3.5rem 0;
@@ -39,7 +13,7 @@
 .packages-intro h2 {
   font-size: 3rem;
   margin-bottom: 1.5rem;
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .packages-intro p {
@@ -48,7 +22,6 @@
   font-size: 1.7rem;
 }
 
-/* Packages Section */
 .packages {
   padding: 2.5rem 0 5rem;
 }
@@ -69,13 +42,14 @@
 }
 
 .package-title {
-  font-size: 1.7;
+  font-size: 2rem;
   padding: 1.5rem 1.8rem 0.3rem;
-  color: var(--secondary-color);
+  color: var(--primary-color);
+  text-align: center;
 }
 
 .package-category {
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 500;
   color: var(--accent-color);
   padding: 0 2rem 1.5rem;
