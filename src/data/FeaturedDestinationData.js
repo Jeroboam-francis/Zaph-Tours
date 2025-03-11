@@ -8,7 +8,6 @@ import CoastalKenya from "../assets/Coastal-Kenya.jpg";
 
 const FeaturedDestinationsData = [
   {
-
     title: "Mt. Kenya",
     description:
       "Africa's second highest peak offers breathtaking diverse landscapes, from bamboo forests to alpine meadows and glaciers.",
@@ -60,5 +59,6 @@ const FeaturedDestinationsData = [
     price: "From $750 per person",
     link: "#",
   },
+  
 ];
 export default FeaturedDestinationsData;

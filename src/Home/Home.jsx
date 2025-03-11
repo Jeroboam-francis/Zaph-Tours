@@ -13,8 +13,8 @@ function Home() {
         <AboutUs />
         <FeaturedDestinationsCard />
         <Testimonials />
-        <NewsLetterCard />
-        <FooterCard />
+        <NewsLetter />
+        <Footer />
       </h1>
     </div>
   );
@@ -111,7 +111,7 @@ function Testimonials() {
               could have hoped for!
             </div>
             <div className="testimonial-author">
-              Stella Thompson, Kirinyang'a, Kenya
+              Stella Thompson, Kirinyanga, Kenya
             </div>
           </div>
 
@@ -133,27 +133,11 @@ function Testimonials() {
               service!
             </div>
             <div className="testimonial-author">
-              Jackline Nderi, Murang'a Kenya
+              Jackline Nderi, Muranga Kenya
             </div>
           </div>
         </div>
       </div>
     </section>
-  );
-}
-
-function NewsLetterCard() {
-  return (
-    <div>
-      <NewsLetter />
-    </div>
-  );
-}
-
-function FooterCard() {
-  return (
-    <div>
-      <Footer />
-    </div>
   );
 }

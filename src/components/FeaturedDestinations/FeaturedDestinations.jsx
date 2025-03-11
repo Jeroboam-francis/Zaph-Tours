@@ -19,4 +19,5 @@ function FeaturedDestinations({ title, description, price, image, link }) {
   );
 }
 
+
 export default FeaturedDestinations;
