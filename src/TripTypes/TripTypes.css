@@ -13,7 +13,7 @@
 .packages-intro h2 {
   font-size: 3rem;
   margin-bottom: 1.5rem;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .packages-intro p {
