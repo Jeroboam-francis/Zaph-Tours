@@ -1,6 +1,5 @@
 import "./Footer.css";
 import { FaYoutube, FaTwitter, FaWhatsapp, FaFacebook } from "react-icons/fa";
-// import PropTypes from "prop-types";
 import { NavLink } from "react-router-dom";
 import Contacts from "../Contacts/Contacts";
 
@@ -102,17 +101,3 @@ function SocialLinks({ icons, text }) {
 function SocialLinksData({ icons }) {
   return <div>{icons}</div>;
 }
-
-// SocialLinks.propTypes = {
-//   icons: PropTypes.element.isRequired,
-//   text: PropTypes.string.isRequired,
-// };
-// SocialLinksData.propTypes = {
-//   icons: PropTypes.element.isRequired,
-//   text: PropTypes.string.isRequired,
-// };
-// NavigationLink.propTypes = {
-//   to: PropTypes.string.isRequired,
-//   Label: PropTypes.element.isRequired,
-//   text: PropTypes.string.isRequired,
-// };

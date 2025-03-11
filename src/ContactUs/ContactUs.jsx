@@ -1,4 +1,5 @@
 import Footer from "../components/Footer/Footer";
+import "./ContactUs.css";
 
 function ContactUs() {
   return (
