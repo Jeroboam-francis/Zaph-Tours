@@ -1,7 +1,9 @@
 import Footer from "../components/Footer/Footer";
 import "./ContactUs.css";
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
-
+import { FaPhone } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
+import { IoMailUnread } from "react-icons/io5";
 function ContactUs() {
   return (
     <div>
@@ -31,9 +33,9 @@ const ContactUsCard = () => {
 
       <div className="contactus-info">
         <h3>Contact Information</h3>
-        <p>Email: contact@company.com</p>
-        <p>Phone: +123 456 7890</p>
-        <p>Address: 123 Business Street, City, Country</p>
+        <p>{<IoMailUnread />}  contact@company.com</p>
+        <p>{<FaPhone />}   +123 456 7890</p>
+        <p>{<FaLocationDot />}   145 Murang'a ,Murang'a City, Kenya</p>
       </div>
 
       <div className="map-container">

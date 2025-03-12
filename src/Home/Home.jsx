@@ -4,6 +4,9 @@ import FeaturedDestinations from "../components/FeaturedDestinations/FeaturedDes
 import FeaturedDestinationsData from "../data/FeaturedDestinationData";
 import NewsLetter from "../components/NewsLetter/NewsLetter";
 import Footer from "../components/Footer/Footer";
+import Testimonials1 from "../assets/testimonials-1.png";
+import Testimonials2 from "../assets/testimonials-2.jpg";
+import Testimonials3 from "../assets/testimonials-3.png";
 
 function Home() {
   return (
@@ -105,21 +108,33 @@ function Testimonials() {
         <h2 className="section-title">What Our Clients Say</h2>
         <div className="testimonial-grid">
           <div className="testimonial-card">
+            <div className="testimonialsCard-image">
+              <img src={Testimonials1} alt="Testimonial" />
+            </div>
             <div className="testimonial-text">
-              Our guide was incredibly knowledgeable and spotted wildlife we
-              would have never seen on our own. The best safari experience we
-              could have hoped for!
+              <p>
+                {" "}
+                Our guide was incredibly knowledgeable and spotted wildlife we
+                would have never seen on our own. The best safari experience we
+                could have hoped for!
+              </p>
             </div>
             <div className="testimonial-author">
-              Stella Thompson, Kirinyanga, Kenya
+              Sharon Wanjiru, Murang'a, Kenya
             </div>
           </div>
 
           <div className="testimonial-card">
+            <div className="testimonialsCard-image">
+              <img src={Testimonials2} alt="Testimonial" />
+            </div>
             <div className="testimonial-text">
-              Climbing Mt. Kenya with Zaph Tours was life-changing. The team
-              ensured our safety while making the experience absolutely
-              unforgettable.
+              <p>
+                {" "}
+                Climbing Mt. Kenya with Zaph Tours was life-changing. The team
+                ensured our safety while making the experience absolutely
+                unforgettable.
+              </p>
             </div>
             <div className="testimonial-author">
               Jeroboam Francis, Kisii Kenya
@@ -127,14 +142,18 @@ function Testimonials() {
           </div>
 
           <div className="testimonial-card">
+            <div className="testimonialsCard-image">
+              <img src={Testimonials3} alt="Testimonial" />
+            </div>
             <div className="testimonial-text">
-              From planning to execution, everything was flawless. They even
-              accommodated last-minute changes to our itinerary. Truly a premium
-              service!
+              <p>
+                {" "}
+                From planning to execution, everything was flawless. They even
+                accommodated last-minute changes to our itinerary. Truly a
+                premium service!
+              </p>
             </div>
-            <div className="testimonial-author">
-              Jackline Nderi, Muranga Kenya
-            </div>
+            <div className="testimonial-author">Stella , Murang'a Kenya</div>
           </div>
         </div>
       </div>
