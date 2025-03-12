@@ -1,5 +1,11 @@
 import "./Footer.css";
-import { FaYoutube, FaTwitter, FaWhatsapp, FaFacebook } from "react-icons/fa";
+import {
+  FaYoutube,
+  FaGithub,
+  FaTwitter,
+  FaWhatsapp,
+  FaFacebook,
+} from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import Contacts from "../Contacts/Contacts";
 import Logo from "../Logo/Logo";
@@ -73,7 +79,13 @@ function Footer() {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; 2025 Zaph Tours. All Rights Reserved.</p>
+          <p>
+            &copy; 2025 Zaph Tours. All Rights Reserved.
+            <a href="https://github.com/Jeroboam-francis">
+              &nbsp;
+              <FaGithub /> Developed By Jeroboam{" "}
+            </a>
+          </p>
         </div>
       </div>
     </footer>

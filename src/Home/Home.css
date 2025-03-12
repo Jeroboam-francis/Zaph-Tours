@@ -184,6 +184,9 @@
   height: 100%;
   object-fit: cover;
 }
+.testimonialsCard-image img:hover {
+  transform: scale(1.1);
+}
 
 @media (max-width: 992px) {
   .dest-grid,

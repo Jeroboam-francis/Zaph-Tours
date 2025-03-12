@@ -37,6 +37,8 @@
 .dest-img {
   height: 250px;
   overflow: hidden;
+  border: 0.1rem solid var(--secondary-color);
+  border-radius: 1.5rem;
 }
 
 .dest-img img {
