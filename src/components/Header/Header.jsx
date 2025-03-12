@@ -5,7 +5,6 @@ function Header() {
   return (
     <header className="header">
       <HeaderNavigation />
-      {/* <HeaderContacts /> */}
     </header>
   );
 }
@@ -27,7 +26,6 @@ function HeaderNavigation() {
     </div>
   );
 }
-
 
 function NavigationLink({ to, Label }) {
   return (

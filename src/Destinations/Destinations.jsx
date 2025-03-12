@@ -18,7 +18,7 @@ function DestinationsCard() {
   return (
     <section className="destinations" id="featured">
       <div className="container">
-        <h2 className="section-title">Featured Destinations</h2>
+        <h2 className="section-title">Destinations Offers</h2>
         <div className="dest-grid">
           {DestinationsData.map((data) => (
             <DestinationCard

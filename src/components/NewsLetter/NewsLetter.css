@@ -1,12 +1,12 @@
 .newsletter {
-  padding: 10rem 0;
+  padding: 7% 0;
   background-color: var(--secondary-color);
   color: white;
   text-align: center;
 }
 
 .newsletter h2 {
-  margin-bottom: 7rem;
+  margin-bottom: 4rem;
   font-size: larger;
 }
 .newsletter p {
